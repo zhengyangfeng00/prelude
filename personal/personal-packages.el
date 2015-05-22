@@ -13,7 +13,10 @@
 (setq package-user-dir (expand-file-name "elpa" prelude-dir))
 (package-initialize)
 
-(defvar personal-packages '(evil-leader)
+(defvar personal-packages
+  '(evil-leader
+    helm-dash
+    dash-at-point)
   "A list of packages that are not bundled with prelude")
 
 (defun personal-packages-installed-p ()

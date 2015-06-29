@@ -1,5 +1,8 @@
-(require 'evil-leader)
+;;; package --- Summary
+;;; Commentary:
 
+;;; Code:
+(require 'evil-leader)
 (global-evil-leader-mode)
 
 (evil-leader/set-leader ",")

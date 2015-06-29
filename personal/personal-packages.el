@@ -15,7 +15,10 @@
 
 (defvar personal-packages
   '(evil-leader
+    evil-smartparens
     helm-dash
+    racket-mode
+    yasnippet
     dash-at-point)
   "A list of packages that are not bundled with prelude")
 

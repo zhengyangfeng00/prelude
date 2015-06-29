@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: common-headers
+# key: commonh
+# --
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cstdlib>
+#include <climits>
+#include <iterator>
+#include <queue>

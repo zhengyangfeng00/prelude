@@ -19,6 +19,7 @@
     helm-dash
     racket-mode
     yasnippet
+    highlight-symbol
     dash-at-point)
   "A list of packages that are not bundled with prelude")
 

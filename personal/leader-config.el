@@ -7,12 +7,13 @@
 
 (evil-leader/set-leader ",")
 (evil-leader/set-key
-  "e" 'find-file
-  "w" 'save-buffer
-  "q" 'fill-paragraph
   "b" 'switch-to-buffer
+  "e" 'find-file
   "d" 'dash-at-point
-  "k" 'kill-buffer)
+  "h" 'highlight-symbol
+  "k" 'kill-buffer
+  "q" 'fill-paragraph
+  "w" 'save-buffer)
 
 (provide 'leader-config)
 ;;; leader-config.el ends here
